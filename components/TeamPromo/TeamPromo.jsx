@@ -14,7 +14,7 @@ export default function TeamPromo() {
   const [gender, setGender] = useState("mens");
 
   const toggleGender = () => {
-    setGender((prev) => (prev === "mens" ? "mens" : "ladies"));
+    setGender((prev) => (prev === "mens" ? "ladies" : "mens"));
   };
 
   return (
@@ -57,7 +57,11 @@ export default function TeamPromo() {
             Mens{" "}
           </span>
           <span
-            className={`text-xs font-normal leading-[170%] pr-[7px] py-[5px] transition-colors duration-300 ${
+            style={{
+              clipPath:
+                "polygon(14% 0px, 83% 0px, 100% 24%, 100% 73%, 82% 100%, 14% 100%, 0px 79%, 0px 22%)",
+            }}
+            className={`text-xs font-normal leading-[170%] px-[7px] py-[5px] transition-colors duration-300 ${
               gender === "ladies" ? "bg-black" : "bg-[#333]"
             }`}
           >
@@ -93,7 +97,7 @@ export default function TeamPromo() {
               "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 54.92%, #000 100%), url('/images/team-1.png') lightgray 50% / cover no-repeat",
           }}
         >
-          <div className="w-[93px] h-[86px] absolute top-[84px] right-[58px]">
+          <div className="w-[63px] lg:w-[93px] h-[64px] lg:h-[86px] absolute top-[17%] right-[9%] -translate-x-[9%] -translate-y-[17%]">
             <Image
               src={"/images/Badge.png"}
               width={93}
