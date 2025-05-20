@@ -1,5 +1,5 @@
 import React from "react";
-import LanguageSelector from "./elements/LanguageSelector";
+import LanguageSelector from "../LanguageSelector";
 import Logo from "./elements/Logo";
 import MainNavigation from "./elements/MainNavigation";
 import SecondaryNavigation from "./elements/SecondaryNavigation";
