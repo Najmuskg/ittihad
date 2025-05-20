@@ -81,8 +81,8 @@ export default function TeamPromo() {
         }}
         navigation={{
           enabled: true,
-          nextEl: ".team-btn-next",
-          prevEl: ".team-btn-prev",
+          nextEl: ".custom-btn-next",
+          prevEl: ".custom-btn-prev",
         }}
         breakpoints={{
           768: {
@@ -188,7 +188,7 @@ export default function TeamPromo() {
         {/* Start OF Swiper Controls */}
         <div className="relative flex items-center gap-10 mt-8">
           <div className="swiper-navigation hidden md:flex items-center gap-4">
-            <div className="team-btn-prev">
+            <div className="custom-btn-prev cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="43"
@@ -205,7 +205,7 @@ export default function TeamPromo() {
               </svg>
             </div>
 
-            <div className="team-btn-next">
+            <div className="custom-btn-next cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="43"
