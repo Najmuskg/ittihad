@@ -78,10 +78,10 @@ export default function HeroBanner() {
           effect="fade"
           loop
           speed={500}
-          //   autoplay={{
-          //     delay: autoplayDelay,
-          //     disableOnInteraction: false,
-          //   }}
+            autoplay={{
+              delay: autoplayDelay,
+              disableOnInteraction: false,
+            }}
           pagination={{
             el: ".custom-pagination",
             clickable: true,
@@ -111,7 +111,7 @@ before:absolute before:top-[62px] before:inset-x-0 before:h-[80px] before:bg-[li
                 />
               </div>
 
-              <div className="container relative z-10 pb-[150px] space-x-6">
+              <div className="container relative z-10 pb-[80px] space-x-6">
                 <div className="max-w-[700px]">
                   {slide.title && (
                     <h3 className="text-xs text-white/50 font-bold leading-[120%] tracking-[0.8px] uppercase slide-up">
@@ -133,7 +133,7 @@ before:absolute before:top-[62px] before:inset-x-0 before:h-[80px] before:bg-[li
         <div className="absolute w-full left-0 bottom-[54px] z-10">
           <div className="container">
             <div
-              className="custom-pagination text-white h-18 flex flex-wrap max-[768px]:shrink-0 max-[768px]:overflow-x-auto no-scrollbar"
+              className="custom-pagination text-white flex flex-wrap max-[768px]:shrink-0 max-[768px]:overflow-x-auto no-scrollbar"
               ref={(el) => {
                 if (el) {
                   progressBarsRef.current = Array.from(
