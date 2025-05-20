@@ -13,7 +13,7 @@ export default function SecondaryNavigation() {
           <li key={href}>
             <Link
               href={href}
-              className="flex items-center gap-2 text-sm font-bold uppercase leading-[120%] tracking-[0.8px] hover:text-yellow-400 transition"
+              className="flex items-center gap-2 text-sm font-bold uppercase leading-[120%] tracking-[0.8px] hover:text-[#FFF014]  transition"
             >
               {label}
               <svg

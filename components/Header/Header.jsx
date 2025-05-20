@@ -6,11 +6,11 @@ import SecondaryNavigation from "./elements/SecondaryNavigation";
 
 export default function Header() {
   return (
-    <header className="border-t-[8px] border-yellow-400 bg-black">
+    <header className="relative border-t-[8px] border-yellow-400 bg-black">
       <div className="py-[6px] flex items-center border-b border-[#333] px-[48px]">
         <LanguageSelector />
       </div>
-      <div className="flex justify-between items-center px-[48px] py-4">
+      <div className="flex justify-between items-center px-[48px] py-[10px]">
         <Logo />
         <MainNavigation />
         <SecondaryNavigation />

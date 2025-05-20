@@ -15,7 +15,7 @@ export default function MainNavigation() {
           <li key={href}>
             <Link
               href={href}
-              className=" text-sm font-bold uppercase leading-[120%] tracking-[0.8px] hover:text-yellow-400 transition"
+              className=" text-sm font-bold uppercase leading-[120%] tracking-[0.8px] hover:text-[#FFF014] transition"
             >
               {label}
             </Link>
