@@ -172,7 +172,7 @@ export default function TeamPromo() {
           className="w-full aspect-[264/369] md:aspect-[347/485] bg-center !flex items-end relative !bg-black"
           style={{
             background:
-              "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 54.92%, #000 100%), url('/images/team-5.png') lightgray 50% / cover no-repeat",
+              "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 54.92%, #000 100%), url('/images/team-1.png') lightgray 50% / cover no-repeat",
           }}
         >
           <div className="flex items-center gap-7 justify-between w-full px-4 py-5">
