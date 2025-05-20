@@ -1,0 +1,18 @@
+.team-promo-block .swiper{
+    @apply overflow-visible;
+}
+.team-promo-block .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    @apply bg-[#FFF014] h-[3px] -top-px;
+}
+.team-promo-block .swiper-button-disabled{
+    @apply opacity-50 pointer-events-none;
+}
+
+/* .team-promo-block .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: none !important;
+}
+.team-promo-block .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: none !important;
+} */

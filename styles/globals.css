@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./animations.css";
+@import "./_slider.css";
 
 :root {
   --background: #000;
