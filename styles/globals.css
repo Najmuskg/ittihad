@@ -22,3 +22,8 @@ body {
 .container {
   @apply max-w-[1496px] px-5 md:px-10 mx-auto;
 }
+
+.swiper-pagination-bullet{
+  width: 160px !important;
+  position: relative;
+}
