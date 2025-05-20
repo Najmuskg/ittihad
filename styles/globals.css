@@ -5,6 +5,7 @@
 :root {
   --background: #000;
   --foreground: #fff;
+  --legacy-yellow: #fff014;
 }
 
 @theme inline {
@@ -12,6 +13,31 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-burak-wide: var(--font-geist-mono);
+  --font-burak-semi-cond: var(--font-geist-mono);
+  --font-public-sans: var(--font-geist-mono);
+
+  --text-title: 2.5rem;
+  --text-title--font-weight: 900;
+  --text-title--line-height: 3.125rem;
+  --text-title--letter-spacing: 0.125rem;
+
+  --text-titleSm: 1.5rem;
+  --text-titleSm--font-weight: 900;
+  --text-titleSm--line-height: 1.875rem;
+  --text-titleSm--letter-spacing: 0.09375rem;
+
+  --text-subTitle: 1.5rem;
+  --text-subTitle--font-weight: 800;
+  --text-subTitle--line-height: 1.875rem;
+  --text-subTitle--letter-spacing: 0.03125rem;
+
+  --text-subTitleSm: 1rem;
+  --text-subTitleSm--font-weight: 800;
+  --text-subTitleSm--line-height: 1.25rem;
+  --text-subTitleSm--letter-spacing: 0.03125rem;
+
+  --color-legacy-yellow: #fff014;
 }
 
 body {
@@ -19,11 +45,39 @@ body {
   color: var(--foreground);
 }
 
+h2 {
+  @apply font-burak-wide;
+}
+h3 {
+  @apply font-burak-semi-cond;
+}
+
 .container {
   @apply max-w-[1496px] px-5 md:px-10 mx-auto;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   width: 160px !important;
   position: relative;
+}
+
+.btn {
+  @apply inline-block text-sm pt-3 pb-2.5 px-4 text-black font-bold leading-[120%] tracking-[0.0125rem] uppercase;
+  --cornner-cut: 4px;
+  overflow: hidden;
+  background-color: var(--legacy-yellow);
+  clip-path: polygon(
+    /* top-left */ var(--cornner-cut) 0%,
+    /* top-right */ calc(100% - var(--cornner-cut)) 0%,
+    /* top-right */ 100% var(--cornner-cut),
+    /* bottom-right */ 100% calc(100% - var(--cornner-cut)),
+    /* bottom-right */ calc(100% - var(--cornner-cut)) 100%,
+    /* bottom-left */ var(--cornner-cut) 100%,
+    /* bottom-left */ 0% calc(100% - var(--cornner-cut)),
+    /* top-left */ 0% var(--cornner-cut)
+  );
+}
+
+.link-base {
+  @apply pb-1 uppercase text-sm font-medium leading-[120%] tracking-[0.0125rem] relative inline-block after:absolute after:w-full after:h-px after:bottom-0 after:left-0 after:bg-white;
 }

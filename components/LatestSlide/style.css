@@ -1,0 +1,29 @@
+:root {
+	--background: #000;
+	--foreground: #fff;
+	--legacy-yellow: #fff014;
+}
+.cardCorner {
+	--cornner-cut: 18px;
+	clip-path: polygon(
+		/* top-left */ var(--cornner-cut) 0%,
+		/* top-right */ calc(100% - var(--cornner-cut)) 0%,
+		/* top-right */ 100% var(--cornner-cut),
+		/* bottom-right */ 100% calc(100% - var(--cornner-cut)),
+		/* bottom-right */ calc(100% - var(--cornner-cut)) 100%,
+		/* bottom-left */ var(--cornner-cut) 100%,
+		/* bottom-left */ 0% calc(100% - var(--cornner-cut)),
+		/* top-left */ 0% var(--cornner-cut)
+	);
+}
+.cardCorner::after {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 36.41%, #000 100%);
+}
+.blockSlider-progress.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+	height: 4px !important;
+	background-color: var(--legacy-yellow);
+}
+.blockSlider-progress.swiper-pagination-progressbar {
+	height: 1px;
+	background-color: #333;
+}
