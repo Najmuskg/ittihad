@@ -1,0 +1,13 @@
+.marquee {
+  @apply flex items-center gap-5 flex-shrink-0;
+  animation: scrollToLeft 14s linear infinite;
+}
+
+@keyframes scrollToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 20px));
+  }
+}

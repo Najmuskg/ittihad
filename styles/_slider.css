@@ -1,18 +1,21 @@
-.team-promo-block .swiper{
-    @apply overflow-visible;
+.team-promo-block .swiper {
+  @apply overflow-visible;
 }
-.team-promo-block .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-    @apply bg-[#FFF014] h-[3px] -top-px;
+.team-promo-block
+  .swiper-pagination-progressbar
+  .swiper-pagination-progressbar-fill {
+  @apply bg-[#FFF014] h-[3px] -top-px;
 }
-.team-promo-block .swiper-button-disabled{
-    @apply opacity-50 pointer-events-none;
+.team-promo-block .swiper-button-disabled {
+  @apply opacity-50 pointer-events-none;
 }
 
-/* .team-promo-block .swiper-button-next:after,
-.swiper-rtl .swiper-button-prev:after {
-  content: none !important;
+.partners-slider-block .swiper-wrapper {
+  @apply mb-[60px];
 }
-.team-promo-block .swiper-button-prev:after,
-.swiper-rtl .swiper-button-next:after {
-  content: none !important;
-} */
+.partners-slider-block .swiper-pagination-bullet {
+  @apply !w-12 h-[2px] rounded-none;
+}
+.partners-slider-block .swiper-pagination-bullet-active {
+  @apply bg-black;
+}
