@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import SecondaryNavigation from "./SecondaryNavigation";
 
 export default function MainNavigation() {
   const links = [
@@ -9,8 +10,8 @@ export default function MainNavigation() {
     { href: "/link4", label: "Matches" },
   ];
   return (
-    <nav>
-      <ul className="flex space-x-[56px]">
+    <>
+      <ul className="flex flex-col md:flex-row  md:space-x-[56px]">
         {links.map(({ href, label }) => (
           <li key={href}>
             <Link
@@ -22,6 +23,10 @@ export default function MainNavigation() {
           </li>
         ))}
       </ul>
-    </nav>
+
+      <div className="block md:hidden">
+        <SecondaryNavigation />
+      </div>
+    </>
   );
 }

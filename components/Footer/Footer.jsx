@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="mt-auto pt-[48px] pb-6 border-b-[4px] border-[#FFF014]">
       <div className="container">
-        <div className="flex justify-between items-center border-b border-[#333] pb-[38px]">
+        <div className="flex flex-col md:flex-row justify-between items-center border-b border-[#333] pb-[38px]">
           <div>
             <Link href={"/"}>
               <Image
@@ -20,8 +20,8 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className="flex ">
-            <div className="border-r border-white pr-10">
+          <div className="flex flex-col md:flex-row">
+            <div className="border-b md:border-r border-white pb-10 md:pb-0 md:pr-10">
               <p className="text-base font-bold leading-[125%] tracking-[1.5px] uppercase">
                 Strategic Partner
               </p>
@@ -373,7 +373,7 @@ export default function Footer() {
                 </svg>
               </div>
             </div>
-            <div className="pl-10">
+            <div className="pt-10 md:pt-0 md:pl-10">
               <p className="text-base font-bold leading-[125%] tracking-[1.5px] uppercase">
                 Platinum Sponsor
               </p>
@@ -420,7 +420,7 @@ export default function Footer() {
         </div>
 
         <div className="border-b border-[#333] py-[38px]">
-          <ul className="flex justify-center items-center gap-[56px]">
+          <ul className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-[56px]">
             <li>
               <Link href="">Home</Link>
             </li>
@@ -487,8 +487,8 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="pt-[38px] flex justify-between items-center">
-          <div className="flex items-center gap-2">
+        <div className="pt-[38px] flex flex-col md:flex-row justify-between items-center">
+          <div className="flex  items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -561,7 +561,7 @@ export default function Footer() {
             </svg>
           </div>
           <div>
-            <ul className="flex gap-8 items-center">
+            <ul className="flex gap-8 items-center flex-col md:flex-row">
               <li>
                 <Link
                   className="text-xs font-normal leading-[170%] text-white"

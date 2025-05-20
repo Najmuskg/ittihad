@@ -23,7 +23,22 @@ body {
   @apply max-w-[1496px] px-5 md:px-10 mx-auto;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   width: 160px !important;
   position: relative;
+}
+
+.cornerClip {
+  --cornner-cut: 5px;
+  overflow: hidden;
+  clip-path: polygon(
+    var(--cornner-cut) 0%,
+    calc(100% - var(--cornner-cut)) 0%,
+    100% var(--cornner-cut),
+    100% calc(100% - var(--cornner-cut)),
+    calc(100% - var(--cornner-cut)) 100%,
+    var(--cornner-cut) 100%,
+    0% calc(100% - var(--cornner-cut)),
+    0% var(--cornner-cut)
+  );
 }

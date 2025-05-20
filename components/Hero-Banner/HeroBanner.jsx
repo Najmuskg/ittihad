@@ -100,7 +100,7 @@ export default function HeroBanner() {
               key={i}
               className="!flex !items-end !justify-start relative w-full
                 after:absolute after:inset-0 after:bg-[linear-gradient(180deg,_rgba(0,0,0,0)_58.81%,_#000_100%)]
-before:absolute before:top-[62px] before:inset-x-0 before:h-[80px] before:bg-[linear-gradient(180deg,_#000_0%,_rgba(0,0,0,0)_100%)] before:z-10"
+before:absolute before:top-[32px] before:inset-x-0 before:h-[80px] before:bg-[linear-gradient(180deg,_#000_0%,_rgba(0,0,0,0)_100%)] before:z-10"
             >
               <div className="absolute inset-0 w-full h-full">
                 <Image
