@@ -51,14 +51,18 @@ export default function TeamPromo() {
         }}
       >
         <SwiperSlide className="w-full aspect-[175/100.235] md:aspect-[349/200]">
-          {/* <Image
-            src=""
+          <Image
+            src="/images/team-1.png"
             alt=""
-            width={400}
-            height={300}
+            width={347}
+            height={485}
             className="object-contain h-full w-full"
-          /> */}
-          <h2>hello</h2>
+          />
+
+          <div>
+            <h3>Abdulilah Alamri</h3>
+            <span>4</span>
+          </div>
         </SwiperSlide>
         <SwiperSlide className="w-full aspect-[175/100.235] md:aspect-[349/200]">
           {/* <Image
