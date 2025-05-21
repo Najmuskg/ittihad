@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import LanguageSelector from "../LanguageSelector";
 import Logo from "./elements/Logo";
@@ -21,13 +21,25 @@ export default function Header() {
         <Logo />
         <div className="max-[1024px]:block lg:hidden flex justify-end">
           <button
-            className="toggleNav flex flex-col items-end w-[32px] bg-transparent space-y-2"
+            className="toggleNav flex flex-col items-end w-[32px] bg-transparent space-y-[4px]"
             onClick={toggleMenu}
             aria-label="Toggle navigation"
           >
-            <span className="block w-full h-[1.333px] relative bg-white"></span>
-            <span className="block w-full h-[1.333px] relative bg-white"></span>
-            <span className="block w-full h-[1.333px] relative bg-white"></span>
+            <span
+              className={`block w-full h-[2px] bg-white relative transition-transform duration-300 ${
+                isMenuOpen ? "rotate-[45deg] top-[5px]" : ""
+              }`}
+            ></span>
+            <span
+              className={`block w-full h-[2px] bg-white relative transition-opacity duration-300 ${
+                isMenuOpen ? "opacity-0" : ""
+              }`}
+            ></span>
+            <span
+              className={`block w-full h-[2px] bg-white relative transition-transform duration-300 ${
+                isMenuOpen ? "-rotate-[45deg] -top-2" : ""
+              }`}
+            ></span>
           </button>
         </div>
         <nav

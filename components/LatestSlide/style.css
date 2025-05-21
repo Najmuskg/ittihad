@@ -24,6 +24,19 @@
 	background-color: var(--legacy-yellow);
 }
 .blockSlider-progress.swiper-pagination-progressbar {
-	height: 1px;
+	background-color: transparent;
+}
+.blockSlider-progress.swiper-pagination-progressbar::after {
 	background-color: #333;
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 1px;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+.swiper-button-disabled {
+  opacity: 0.5;
 }

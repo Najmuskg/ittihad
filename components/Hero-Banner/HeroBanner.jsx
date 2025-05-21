@@ -111,15 +111,15 @@ before:absolute before:top-[32px] before:inset-x-0 before:h-[80px] before:bg-[li
                 />
               </div>
 
-              <div className="container relative z-10 pb-[80px] space-x-6">
-                <div className="max-w-[700px]">
+              <div className="px-4 md:px-[48px] relative z-10 pb-[80px] space-x-6">
+                <div className="max-w-[700px] max-[767px]:space-y-3">
                   {slide.title && (
-                    <h3 className="text-xs text-white/50 font-bold leading-[120%] tracking-[0.8px] uppercase slide-up">
+                    <h3 className="text-xs text-white/50 font-bold leading-[120%] tracking-[0.8px] uppercase max-[767px]:text-center slide-up">
                       {slide.title}
                     </h3>
                   )}
                   {slide.subTitle && (
-                    <h2 className="text-[56px] font-extrabold leading-[125%] tracking-[2.5px] capitalize slide-up text-white">
+                    <h2 className="text-[40px] md:text-[56px] font-extrabold leading-[125%] tracking-[2px] md:tracking-[2.5px] uppercase slide-up text-white max-[767px]:text-center">
                       {slide.subTitle}
                     </h2>
                   )}
