@@ -44,8 +44,6 @@ export default function SocialMedia() {
         <SwiperSlide
           className="w-full aspect-[264/369] md:aspect-[347/485] bg-center !flex items-end relative !bg-black socialCard"
         >
-
-
         </SwiperSlide>
 
 
