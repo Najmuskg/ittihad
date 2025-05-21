@@ -11,11 +11,14 @@
 }
 
 .partners-slider-block .swiper-wrapper {
-  @apply mb-[60px];
+  @apply mb-13;
 }
 .partners-slider-block .swiper-pagination-bullet {
   @apply !w-12 h-[2px] rounded-none;
 }
 .partners-slider-block .swiper-pagination-bullet-active {
   @apply bg-black;
+}
+.partners-slider-block .swiper-pagination {
+  @apply flex justify-center gap-2;
 }

@@ -25,14 +25,7 @@ export default function TeamPromo() {
             First teams
           </h2>
 
-          <Link
-            href="#"
-            className="ml-auto text-xs font-bold leading-[120%] tracking-[0.2px] uppercase text-black bg-[#FFF014] py-3 px-2 hover:bg-[#FFF014]/90 transition-all duration-300 ease-in-out"
-            style={{
-              clipPath:
-                "polygon(8% 0px, 92% 0px, 100% 22%, 100% 80%, 93% 100%, 8% 100%, 0px 84%, 0px 22%)",
-            }}
-          >
+          <Link href="#" className="btn ml-auto !text-xs tracking-[0.2px] !py-3 !px-2">
             View full team
           </Link>
         </div>
