@@ -78,10 +78,10 @@ export default function HeroBanner() {
           effect="fade"
           loop
           speed={500}
-            autoplay={{
-              delay: autoplayDelay,
-              disableOnInteraction: false,
-            }}
+          // autoplay={{
+          //   delay: autoplayDelay,
+          //   disableOnInteraction: false,
+          // }}
           pagination={{
             el: ".custom-pagination",
             clickable: true,
@@ -130,19 +130,17 @@ before:absolute before:top-[32px] before:inset-x-0 before:h-[80px] before:bg-[li
         </Swiper>
 
         {/* Custom Pagination */}
-        <div className="absolute w-full left-0 bottom-[54px] z-10">
-          <div className="container">
-            <div
-              className="custom-pagination text-white flex flex-wrap max-[768px]:shrink-0 max-[768px]:overflow-x-auto no-scrollbar"
-              ref={(el) => {
-                if (el) {
-                  progressBarsRef.current = Array.from(
-                    el.querySelectorAll(".progress-bar")
-                  );
-                }
-              }}
-            />
-          </div>
+        <div className="absolute w-full left-0 bottom-0 md:bottom-[54px] z-10 px-4 md:px-[48px]">
+          <div
+            className="custom-pagination text-white h-18 flex flax-wrap md:items-end max-[768px]:shrink-0 max-[768px]:!overflow-x-auto no-scrollbar"
+            ref={(el) => {
+              if (el) {
+                progressBarsRef.current = Array.from(
+                  el.querySelectorAll(".progress-bar")
+                );
+              }
+            }}
+          />
         </div>
       </div>
     </section>
