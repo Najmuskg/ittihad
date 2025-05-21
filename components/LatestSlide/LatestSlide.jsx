@@ -67,7 +67,7 @@ export default function LatestSlide() {
 								</div>
 
 								<div className='z-1 relative px-6 py-8 flex flex-col items-start justify-end h-full'>
-									<p className='text-sm font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
+									<p className='text-xs font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
 									<h3 className='text-subTitleSm md:text-subTitle text-white uppercase mb-4'>With two clean goals, Al-Ittihad secured a convincing victory over Riyadh.</h3>
 									<a className='link-base' href="#">read more</a>
 								</div>
@@ -84,7 +84,7 @@ export default function LatestSlide() {
 								</div>
 
 								<div className='z-1 relative px-6 py-8 flex flex-col items-start justify-end h-full'>
-									<p className='text-sm font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
+									<p className='text-xs font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
 									<h3 className='text-subTitleSm md:text-subTitle text-white uppercase mb-4'>Fresh faces and high hopes as the team rebuilds for success.</h3>
 									<a className='link-base' href="#">read more</a>
 								</div>
@@ -101,7 +101,7 @@ export default function LatestSlide() {
 								</div>
 
 								<div className='z-1 relative px-6 py-8 flex flex-col items-start justify-end h-full'>
-									<p className='text-sm font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
+									<p className='text-xs font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
 									<h3 className='text-subTitleSm md:text-subTitle text-white uppercase mb-4'>Al-Ittihad defeats Al-Taei 3-0 with a dominant display, showing a strong performance.</h3>
 									<a className='link-base' href="#">read more</a>
 								</div>
@@ -118,7 +118,7 @@ export default function LatestSlide() {
 								</div>
 
 								<div className='z-1 relative px-6 py-8 flex flex-col items-start justify-end h-full'>
-									<p className='text-sm font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
+									<p className='text-xs font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
 									<h3 className='text-subTitleSm md:text-subTitle text-white uppercase mb-4'>With two clean goals, Al-Ittihad secured a convincing victory over Riyadh.</h3>
 									<a className='link-base' href="#">read more</a>
 								</div>
@@ -135,7 +135,7 @@ export default function LatestSlide() {
 								</div>
 
 								<div className='z-1 relative px-6 py-8 flex flex-col items-start justify-end h-full'>
-									<p className='text-sm font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
+									<p className='text-xs font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
 									<h3 className='text-subTitleSm md:text-subTitle text-white uppercase mb-4'>Fresh faces and high hopes as the team rebuilds for success.</h3>
 									<a className='link-base' href="#">read more</a>
 								</div>
@@ -152,7 +152,7 @@ export default function LatestSlide() {
 								</div>
 
 								<div className='z-1 relative px-6 py-8 flex flex-col items-start justify-end h-full'>
-									<p className='text-sm font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
+									<p className='text-xs font-bold leading-[120%] tracking-[0.04375rem] text-white/50 uppercase mb-2.5'>video - 1 hour ago</p>
 									<h3 className='text-subTitleSm md:text-subTitle text-white uppercase mb-4'>Al-Ittihad defeats Al-Taei 3-0 with a dominant display, showing a strong performance.</h3>
 									<a className='link-base' href="#">read more</a>
 								</div>

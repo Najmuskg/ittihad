@@ -99,7 +99,7 @@ h3 {
 }
 
 .link-base {
-  @apply pb-1 uppercase text-sm font-medium leading-[120%] tracking-[0.0125rem] relative inline-block after:absolute after:w-full after:h-px after:bottom-0 after:left-0 after:bg-white;
+  @apply pb-1 uppercase text-xs font-medium leading-[120%] tracking-[0.0125rem] relative inline-block after:absolute after:w-full after:h-px after:bottom-0 after:left-0 after:bg-white;
 }
 
 

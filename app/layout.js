@@ -25,7 +25,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" foxified="">
       <body className={`${publicSans.variable} ${rubik.variable} antialiased min-h-screen flex flex-col font-sans`}>
         <Header />
         {children}
