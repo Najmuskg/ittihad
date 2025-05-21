@@ -1,0 +1,29 @@
+.socialMedia {
+	background-image: url("./socials.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.socialMedia::after {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 58.81%, #000 100%),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.socialCard {
+	background-image: url("./img-1.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  --cornner-cut: 20px;
+  overflow: hidden;
+  clip-path: polygon(
+    var(--cornner-cut) 0%,
+    calc(100% - var(--cornner-cut)) 0%,
+    100% var(--cornner-cut),
+    100% calc(100% - var(--cornner-cut)),
+    calc(100% - var(--cornner-cut)) 100%,
+    var(--cornner-cut) 100%,
+    0% calc(100% - var(--cornner-cut)),
+    0% var(--cornner-cut)
+  );
+}

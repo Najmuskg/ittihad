@@ -1,7 +1,5 @@
 "use client";
-import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from "react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,10 +8,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+import './style.css';
+
 export default function SocialMedia() {
   return (
-    <section className="px-4 md:px-12 py-[70px] md:py-[120px] space-y-7 team-promo-block overflow-hidden">
-      <div className="flex flex-col space-y-4 md:space-y-5">
+    <section className="px-4 md:px-12 py-[70px] md:py-[120px] space-y-7 team-promo-block overflow-hidden relative after:absolute after:h-full after:w-full after:left-0 after:top-0 socialMedia">
+      <div className="flex flex-col space-y-4 md:space-y-5 relative z-1">
         <div className="flex items-center">
           <h2 className="text-2xl md:text-[40px] font-black leading-[125%] tracking-[2px] uppercase">
             Follow us on socials
@@ -22,7 +22,7 @@ export default function SocialMedia() {
       </div>
 
       <Swiper
-        className="overflow-visible"
+        className="overflow-visible z-1"
         modules={[Pagination, Navigation]}
         spaceBetween={10}
         slidesPerView={1.3}
@@ -42,14 +42,10 @@ export default function SocialMedia() {
         }}
       >
         <SwiperSlide
-          className="w-full aspect-[264/369] md:aspect-[347/485] bg-center !flex items-end relative !bg-black cornerClip2"
-          style={{
-            background:
-              "url('/images/Social.jpg') lightgray 50% / cover no-repeat",
-          }}
+          className="w-full aspect-[264/369] md:aspect-[347/485] bg-center !flex items-end relative !bg-black socialCard"
         >
 
-         
+
         </SwiperSlide>
 
 
