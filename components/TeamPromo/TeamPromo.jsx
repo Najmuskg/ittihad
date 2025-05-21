@@ -18,14 +18,14 @@ export default function TeamPromo() {
   };
 
   return (
-    <section className="px-4 md:px-12 py-[70px] md:py-[120px] space-y-7 team-promo-block overflow-hidden">
-      <div className="flex flex-col space-y-4 md:space-y-5">
+    <section className="px-4 md:px-12 py-[35px] md:py-[60px] space-y-7 team-promo-block overflow-hidden">
+      <div className="flex flex-col space-y-3 md:space-y-4">
         <div className="flex items-center">
           <h2 className="text-2xl md:text-[40px] font-black leading-[125%] tracking-[2px] uppercase">
             First teams
           </h2>
 
-          <Link href="#" className="btn ml-auto !text-xs tracking-[0.2px] !py-3 !px-2">
+          <Link href="#" className="btn ml-auto tracking-[0.2px] !py-3 !px-2">
             View full team
           </Link>
         </div>

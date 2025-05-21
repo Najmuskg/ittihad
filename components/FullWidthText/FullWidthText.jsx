@@ -8,8 +8,8 @@ export default function FullWidthText() {
         backgroundImage: "url('/images/signup-full-img.png')",
       }}
     >
-      <div className="max-w-[736px] mx-auto">
-        <h2 className="text-[32px] md:text-[56px] font-black leading-[125%] tracking-[2.5px] uppercase text-black mb-4">
+      <div className="max-w-[740px] mx-auto">
+        <h2 className="text-[32px] md:text-[56px] font-black leading-[125%] tracking-[2.5px] uppercase text-black mb-3">
           Sign up to win exclusive prizes
         </h2>
 
@@ -22,7 +22,7 @@ export default function FullWidthText() {
 
         <Link
           href="#"
-          className="btn !text-xs tracking-[0.2px] !text-white !bg-black mt-7 !py-3 !px-9"
+          className="btn tracking-[0.2px] !text-white !bg-black mt-6 !py-3 !px-9"
         >
           Sign up
         </Link>
