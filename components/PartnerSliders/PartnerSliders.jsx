@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Navigation, Pagination } from "swiper/modules";
@@ -13,13 +13,13 @@ import "swiper/css/scrollbar";
 export default function PartnerSliders() {
   return (
     <section className="px-4 md:px-12 py-8 md:py-16 space-y-7 partners-slider-block overflow-hidden bg-[#FFF014]">
-      <div className="container space-y-6 relative">
+      <div className="space-y-6 relative">
         <h2 className="text-base font-black leading-[125%] tracking-[1.5px] uppercase text-black text-center">
           Sponsors
         </h2>
 
         <Swiper
-          className="max-w-[1200px] mx-auto"
+          className="w-full md:w-[90%] mx-auto"
           modules={[Pagination, Navigation]}
           spaceBetween={48}
           slidesPerView={3}

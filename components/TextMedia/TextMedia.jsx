@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function TextMedia({ text, media }) {
   return (
     <section
-      className="min-h-[754px] bg-center bg-cover bg-no-repeat"
+      className="min-h-[754px] bg-cover bg-no-repeat flex items-end"
       style={{
         backgroundImage: "url('/images/text-media-full-img.png')",
       }}
@@ -24,23 +24,19 @@ export default function TextMedia({ text, media }) {
 
           <Link
             href="#"
-            className="text-xs font-bold leading-[120%] tracking-[0.2px] uppercase text-white bg-black hover:text-[#FFF014] transition-all duration-300 px-9 py-3 mt-5 inline-block"
-            style={{
-              clipPath:
-                "polygon(8% 0px, 92% 0px, 100% 22%, 100% 80%, 93% 100%, 8% 100%, 0px 84%, 0px 22%)",
-            }}
+            className="btn !text-xs tracking-[0.2px] !text-white !bg-black mt-5 !py-3 !px-9"
           >
             Sign up
           </Link>
         </div>
 
-        <div className="lg:col-span-3 w-full aspect-[65/82] lg:aspect-[45/34] order-1 lg:order-2">
+        <div className="lg:col-span-3 h-[418px] lg:h-[680px] order-1 lg:order-2">
           <Image
             src="/images/text-media-1.png"
             alt=""
             width={900}
             height={680}
-            className="w-full h-full object-cover pt-[90px] lg:pt-0"
+            className="w-full h-full object-contain object-bottom lg:object-right"
           />
         </div>
       </div>

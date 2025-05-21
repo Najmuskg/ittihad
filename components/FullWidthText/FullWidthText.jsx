@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function FullWidthText() {
   return (
     <section
-      className="min-h-[612px] bg-center bg-cover bg-no-repeat flex items-center text-center"
+      className="min-h-[612px] bg-cover bg-center md:bg-top bg-no-repeat flex items-center text-center px-4 md:px-0"
       style={{
         backgroundImage: "url('/images/signup-full-img.png')",
       }}
@@ -22,11 +22,7 @@ export default function FullWidthText() {
 
         <Link
           href="#"
-          className="text-xs font-bold leading-[120%] tracking-[0.2px] uppercase text-white bg-black hover:text-[#FFF014] transition-all duration-300 px-9 py-3 mt-7 inline-block"
-          style={{
-            clipPath:
-              "polygon(8% 0px, 92% 0px, 100% 22%, 100% 80%, 93% 100%, 8% 100%, 0px 84%, 0px 22%)",
-          }}
+          className="btn !text-xs tracking-[0.2px] !text-white !bg-black mt-7 !py-3 !px-9"
         >
           Sign up
         </Link>
