@@ -5,7 +5,7 @@ import Footer from '@/components/Footer/Footer';
 
 const publicSans = Public_Sans({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '500', '600', '700', '900'],
   display: 'swap',
   variable: '--font-public-sans',
 });

@@ -10,11 +10,7 @@
 }
 
 .socialCard {
-	background-image: url("./img-1.webp");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-  --cornner-cut: 20px;
+  --cornner-cut: 18px;
   overflow: hidden;
   clip-path: polygon(
     var(--cornner-cut) 0%,

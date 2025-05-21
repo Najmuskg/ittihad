@@ -16,6 +16,7 @@
   --font-mono: var(--font-geist-mono);
   --font-burak-wide: "BukraWide", sans-serif;
   --font-burak-semi-cond: "BukraSemiCond", sans-serif;
+  --font-public-sans: "Public sans", sans-serif;
 
   --text-title: 2.5rem;
   --text-title--font-weight: 900;
@@ -38,6 +39,7 @@
   --text-subTitleSm--letter-spacing: 0.03125rem;
 
   --color-legacy-yellow: #fff014;
+  --color-dark-gray: #333333;
 }
 
 body {
@@ -76,7 +78,6 @@ h3 {
   );
 }
 
-
 .btn {
   @apply inline-block text-xs pt-3 pb-2.5 px-4 text-black font-bold leading-[120%] tracking-[0.0125rem] uppercase whitespace-nowrap;
   --cornner-cut: 4px;
@@ -102,8 +103,7 @@ h3 {
   @apply pb-1 uppercase text-xs font-medium leading-[120%] tracking-[0.0125rem] relative inline-block after:absolute after:w-full after:h-px after:bottom-0 after:left-0 after:bg-white;
 }
 
-
- /* .toggleNav i:nth-child(1) {
+/* .toggleNav i:nth-child(1) {
   @apply rotate-[30deg] top-[11px];
 }
 
