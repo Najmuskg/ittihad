@@ -19,7 +19,7 @@ export default function TeamPromo() {
 
   return (
     <section className="px-4 md:px-12 py-[35px] md:py-[60px] space-y-7 team-promo-block overflow-hidden">
-      <div className="flex flex-col space-y-4 md:space-y-5">
+      <div className="flex flex-col space-y-3 md:space-y-4">
         <div className="flex items-center">
           <h2 className="text-2xl md:text-[40px] font-black leading-[125%] tracking-[2px] uppercase">
             First teams
@@ -79,6 +79,12 @@ export default function TeamPromo() {
         }}
         breakpoints={{
           768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+          1280: {
             slidesPerView: 4,
           },
         }}
