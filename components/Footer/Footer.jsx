@@ -5,8 +5,7 @@ import LanguageSelector from "../LanguageSelector";
 
 export default function Footer() {
   return (
-    <footer className="mt-auto pt-[48px] pb-6 border-b-[4px] border-[#FFF014]">
-      <div className="container">
+    <footer className="mt-auto pt-[48px] pb-6 border-b-[4px] border-[#FFF014] px-4 md:px-[48px]">
         <div className="flex flex-col md:flex-row justify-between items-center border-b border-[#333] pb-[38px]">
           <div>
             <Link href={"/"}>
@@ -624,7 +623,6 @@ export default function Footer() {
             <LanguageSelector />
           </div>
         </div>
-      </div>
     </footer>
   );
 }
