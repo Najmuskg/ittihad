@@ -91,7 +91,7 @@ h3 {
   );
 }
 .btn {
-  @apply inline-block text-sm pt-3 pb-2.5 px-4 text-black font-bold leading-[120%] tracking-[0.0125rem] uppercase;
+  @apply inline-block text-sm pt-3 pb-2.5 px-4 text-black font-bold leading-[120%] tracking-[0.0125rem] uppercase whitespace-nowrap;
   --cornner-cut: 4px;
   overflow: hidden;
   background-color: var(--legacy-yellow);
