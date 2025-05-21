@@ -116,14 +116,11 @@ h3 {
 }
 
 
- /* .toggleNav i:nth-child(1) {
-  @apply rotate-[30deg] top-[11px];
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
- .toggleNav i:nth-child(2) {
-  @apply opacity-0;
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-
- .toggleNav i:nth-child(3) {
-  @apply -rotate-[30deg] -top-2;
-} */
