@@ -22,7 +22,7 @@ export default function FullWidthText() {
 
         <Link
           href="#"
-          className="btn !text-xs tracking-[0.2px] !text-white !bg-black mt-7 !py-3 !px-9"
+          className="btn tracking-[0.2px] !text-white !bg-black mt-7 !py-3 !px-9"
         >
           Sign up
         </Link>

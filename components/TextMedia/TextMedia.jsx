@@ -24,7 +24,7 @@ export default function TextMedia({ text, media }) {
 
           <Link
             href="#"
-            className="btn !text-xs tracking-[0.2px] !text-white !bg-black mt-5 !py-3 !px-9"
+            className="btn tracking-[0.2px] !text-white !bg-black mt-5 !py-3 !px-9"
           >
             Sign up
           </Link>

@@ -12,7 +12,7 @@ import "swiper/css/scrollbar";
 
 export default function PartnerSliders() {
   return (
-    <section className="px-4 md:px-12 py-8 md:py-16 space-y-7 partners-slider-block overflow-hidden bg-[#FFF014]">
+    <section className="px-4 md:px-12 pt-10 pb-5 md:pt-16 md:pb-10 space-y-7 partners-slider-block overflow-hidden bg-[#FFF014]">
       <div className="space-y-6 relative">
         <h2 className="text-base font-black leading-[125%] tracking-[1.5px] uppercase text-black text-center">
           Sponsors
