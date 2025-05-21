@@ -15,9 +15,9 @@ import "swiper/css/scrollbar";
 export default function LatestSlide() {
 	return (
 		<section className='py-11 md:py-15'>
-			<div className="container">
+			<div className="max-w-[2200px] mx-auto w-full px-5 md:px-11 lg:px-16">
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6">
-					<div className="col-span-1 space-y-8">
+					<div className="col-span-1 space-y-8 flex flex-col justify-center">
 						<h2 className="text-titleSm md:text-title uppercase">al-ittihad latest</h2>
 
 						<div>

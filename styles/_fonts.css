@@ -1,0 +1,14 @@
+@font-face {
+	font-family: "BukraSemiCond";
+	src: url("../public/fonts/29LTBukraSemiCond-ExtraBold.otf") format("opentype");
+	font-weight: 800;
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: "BukraWide";
+	src: url("../public/fonts/29LTBukraWide-Black.otf") format("opentype");
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}

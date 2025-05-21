@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./_fonts.css";
 @import "./animations.css";
 @import "./_slider.css";
 
@@ -13,9 +14,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-burak-wide: var(--font-geist-mono);
-  --font-burak-semi-cond: var(--font-geist-mono);
-  --font-public-sans: var(--font-geist-mono);
+  --font-burak-wide: "BukraWide", sans-serif;
+  --font-burak-semi-cond: "BukraSemiCond", sans-serif;
 
   --text-title: 2.5rem;
   --text-title--font-weight: 900;
