@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "./_fonts.css";
 @import "./animations.css";
 @import "./_slider.css";
 
@@ -14,8 +13,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-burak-wide: "BukraWide", sans-serif;
-  --font-burak-semi-cond: "BukraSemiCond", sans-serif;
+  --font-burak-wide: var(--font-geist-mono);
+  --font-burak-semi-cond: var(--font-geist-mono);
+  --font-public-sans: var(--font-geist-mono);
 
   --text-title: 2.5rem;
   --text-title--font-weight: 900;
@@ -75,10 +75,8 @@ h3 {
     0% var(--cornner-cut)
   );
 }
-
-
 .btn {
-  @apply inline-block text-xs pt-3 pb-2.5 px-4 text-black font-bold leading-[120%] tracking-[0.0125rem] uppercase whitespace-nowrap;
+  @apply inline-block text-sm pt-3 pb-2.5 px-4 text-black font-bold leading-[120%] tracking-[0.0125rem] uppercase;
   --cornner-cut: 4px;
   overflow: hidden;
   background-color: var(--legacy-yellow);
@@ -94,23 +92,6 @@ h3 {
   );
 }
 
-.linkHover {
-  @apply relative before:bg-[#FFF014] before:content-[''] before:absolute before:w-0 before:h-px before:-bottom-1 before:right-0 hover:before:left-0 transition-all duration-500 ease-in-out before:transition-all before:duration-500 before:ease-in-out hover:before:w-full;
-}
-
 .link-base {
-  @apply pb-1 uppercase text-xs font-medium leading-[120%] tracking-[0.0125rem] relative inline-block after:absolute after:w-full after:h-px after:bottom-0 after:left-0 after:bg-white;
+  @apply pb-1 uppercase text-sm font-medium leading-[120%] tracking-[0.0125rem] relative inline-block after:absolute after:w-full after:h-px after:bottom-0 after:left-0 after:bg-white;
 }
-
-
- /* .toggleNav i:nth-child(1) {
-  @apply rotate-[30deg] top-[11px];
-}
-
- .toggleNav i:nth-child(2) {
-  @apply opacity-0;
-}
-
- .toggleNav i:nth-child(3) {
-  @apply -rotate-[30deg] -top-2;
-} */

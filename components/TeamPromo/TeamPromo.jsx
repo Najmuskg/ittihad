@@ -79,6 +79,12 @@ export default function TeamPromo() {
         }}
         breakpoints={{
           768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+          1280: {
             slidesPerView: 4,
           },
         }}
